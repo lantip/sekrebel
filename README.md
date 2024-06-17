@@ -1,4 +1,6 @@
-Sekrebel Aksara Nusantara
+![Sekrebel Aksara Nusantara](gambar/skrebel.jpg "Sekrebel")
+
+Tentang
 ===
 This is a scrabble game for learning aksara nusantara. Currently available for Aksara Jawa.
 
