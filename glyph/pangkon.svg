@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-2018 0 3151 2500"
+   id="svg918"
+   sodipodi:docname="pangkon.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs922" />
+  <sodipodi:namedview
+     id="namedview920"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.077684571"
+     inkscape:cx="-392.61336"
+     inkscape:cy="238.14253"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg918" />
+  <path
+     fill="currentColor"
+     d="m 105.23541,1319.1556 259,-904.00002 q 103,-359 394,-359 379.99999,0 269.99999,384 l -285.99999,999.00002 -140,487 q -101,352 0,443 l -46,51 q -31,35 -66,4 -110,-99 -140,-241 -30,-142 22,-323 l 140,-487 286,-999.00002 q 58,-203 -73,-203 -171,0 -250,276 l -259,904.00002 q -311.999996,1088 -1367.00001,1088 -301,0 -475,-65 -174,-65 -252,-181.5 -78,-116.5 -41,-245.5 27,-94 109,-159 154,-122 377,-122 v 69 q 0,47 -42,62 -76,27 -138,85 -53,51 -71,114 -29,101 32,178.5 61,77.5 191,113.5 130,36 343,36 935.00001,0 1223.00001,-1005 z"
+     id="path916" />
+</svg>

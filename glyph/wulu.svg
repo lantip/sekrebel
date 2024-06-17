@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-1638 0 1638 2500"
+   id="svg151"
+   sodipodi:docname="wulu.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs155" />
+  <sodipodi:namedview
+     id="namedview153"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.2876"
+     inkscape:cx="818.84562"
+     inkscape:cy="1291.7246"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg151" />
+  <path
+     fill="currentColor"
+     d="m -749.71627,427.66759 q -420.00003,0 -547.00003,443 -95,332.00001 150,332.00001 76,0 150.00003,-20 74,-20 120,-20 52,0 111.5,20 59.5,20 105.5,20 46,0 62,-56 l 107,-373.00001 q 99,-346 -259,-346 z m 33,-115 q 607,0 456,527 l -88,307.00001 q -49,171 -247,171 h -64 q -65,0 -124.5,-20 -59.5,-20 -92.5,-20 -32,0 -106.5,20 -74.50003,20 -163.50003,20 -398,0 -261,-478.00001 151,-527 691.00003,-527 z"
+     id="path149" />
+</svg>

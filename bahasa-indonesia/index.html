@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sekrèbel - ꦱꦼꦏꦿꦺꦧꦼꦭ꧀</title>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Sekrebel Bahasa Indonesia menggunakan aksara jawa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="web game, web app, programming languages, drag and drop, alphabets ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="aple-mobile-web-app-capable" content="yes">
+    <link href='../font/aksara.css' rel='stylesheet'>
+    <link href='../css/menu.css?id=224' rel='stylesheet'>
+    <link href='../css/toast.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css?id=224">
+    <!-- fonts -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+    <!--icon-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="outer-menu">
+        <input class="checkbox-toggle" type="checkbox"/>
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><h2>Mau bermain yang mana?</h2></li>
+                        <li><a href="../">Bahasa Jawa</a></li>
+                        <li><a href="#" onclick="closeMenu()">Bahasa Indonesia</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="upperBody">
+            <section class="header">
+                <h1 class="title-box">SEKRÈBEL</h1>
+                <h3 class="description-box">Hewan apa ini?<br>Susun aksara di bawah untuk menebak. <a class="btn-modal" data-modal="modal-one">?</a>
+                </h3>
+            </section>
+            <!--Hints section-->
+            <section id="hints">
+                <div id="hint">
+                    <img class="hint" style="height: 150px; width: auto!important;" src="binatang/gajah.png" />
+                </div>
+                <div class="scorebox">
+                    <div class="card">
+                        <div class="top-card">
+                            <span class="sekor"> 1570 </span>
+                        </div>
+                        <div class="bottom-card">
+                            <h3 class="english-score"> Bener : <span class="bener">780</span></h3>
+                            <h3 class="math-score"> Salah : <span class="salah">80</span></h3>
+                            <h3 class="math-score"> Koreksi : <span class="koreksi">80</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+            <section id="result">
+                <div class="highlight-container"><div class="highlight result"></div></div>
+            </section>   
+            <!-- drop to area-->
+            <section class="display">
+                <div class="display-row" id="0">
+                    <div class="display-box"></div>
+                    <div class="display-box"></div>
+                    <div class="display-box"></div>            
+                </div>
+            </section>
+        </div>
+
+       <!--alphabets block section-->
+       <section class="alphabets-block" ondragover="event.preventDefault()">
+            <div class="box-cell"><img id="drag1" draggable="true" src="../glyph/ha.svg" data-letter="ꦲ"
+                alt="ꦲ"></div>
+            <div class="box-cell"><img id="drag2"  draggable="true" src="../glyph/na.svg" data-letter="ꦤ"
+                alt="ꦤ"></div>
+            <div class="box-cell"><img id="drag3"  draggable="true" src="../glyph/ca.svg" data-letter="ꦕ"
+                alt="ꦕ"></div>
+            <div class="box-cell"><img id="drag4"  draggable="true" src="../glyph/ra.svg" data-letter="ꦫ"
+                    alt="ꦫ"></div>
+            <div class="box-cell"><img id="drag5"  draggable="true" src="../glyph/ka.svg" data-letter="ꦏ"
+                alt="ꦏ"></div>
+            <div class="box-cell"><img id="drag6"  draggable="true" src="../glyph/da.svg" data-letter="ꦢ"
+                alt="ꦢ"></div>
+            <div class="box-cell"><img id="drag7"  draggable="true" src="../glyph/ta.svg" data-letter="ꦠ"
+                alt="ꦠ"></div>
+            <div class="box-cell"><img id="drag8"  draggable="true" src="../glyph/sa.svg" data-letter="ꦱ"
+                alt="ꦱ"></div>
+            <div class="box-cell"><img id="drag9"  draggable="true" src="../glyph/wa.svg" data-letter="ꦮ"
+                alt="ꦮ"></div>
+            <div class="box-cell"><img id="drag10"  draggable="true" src="../glyph/la.svg" data-letter="ꦭ"
+                alt="ꦭ"></div>
+            <div class="box-cell"><img id="drag11"  draggable="true" src="../glyph/pa.svg" data-letter="ꦥ"
+                alt="ꦥ"></div>
+            <div class="box-cell"><img id="drag12"  draggable="true" src="../glyph/dha.svg" data-letter="ꦝ"
+                alt="ꦝ"></div>
+            <div class="box-cell"><img id="drag13"  draggable="true" src="../glyph/ja.svg" data-letter="ꦗ"
+                alt="ꦗ"></div>
+            <div class="box-cell"><img id="drag14"  draggable="true" src="../glyph/ya.svg" data-letter="ꦪ"
+                alt="ꦪ"></div>
+            <div class="box-cell"><img id="drag15"  draggable="true" src="../glyph/nya.svg" data-letter="ꦚ"
+                alt="ꦚ"></div>
+            <div class="box-cell"><img id="drag16"  draggable="true" src="../glyph/ma.svg" data-letter="ꦩ"
+                alt="ꦩ"></div>
+            <div class="box-cell"><img id="drag17"  draggable="true" src="../glyph/ga.svg" data-letter="ꦒ"
+                alt="ꦒ"></div>
+            <div class="box-cell"><img id="drag18"  draggable="true" src="../glyph/ba.svg" data-letter="ꦧ"
+                alt="ꦧ"></div>
+            <div class="box-cell"><img id="drag19"  draggable="true" src="../glyph/tha.svg" data-letter="ꦛ"
+                alt="ꦛ"></div>
+            <div class="box-cell"><img id="drag20"  draggable="true" src="../glyph/nga.svg" data-letter="ꦔ"
+                alt="ꦔ"></div>
+            <div class="box-cell"><img id="drag21"  draggable="true" src="../glyph/z.svg" data-letter="ꦗ꦳"
+                alt="ꦗ꦳"></div>
+            <div class="box-cell"><img id="drag22"  draggable="true" src="../glyph/pacerek.svg" data-letter="ꦉ"
+                alt="ꦉ"></div>
+            <div class="box-cell"><img id="drag23"  draggable="true" src="../glyph/ngalelet.svg" data-letter="ꦊ"
+                alt="ꦊ"></div>
+            <div class="box-cell"><img id="drag24"  draggable="true" src="../glyph/pangkon.svg" data-letter="꧀"
+                alt="꧀"></div>
+            <div class="box-cell"><img id="drag25"  draggable="true" src="../glyph/wulu.svg" data-letter="ꦶ"
+                alt="ꦶ"></div>
+            <div class="box-cell"><img id="drag26"  draggable="true" src="../glyph/pepet.svg" data-letter="ꦼ"
+                alt="ꦼ"></div>
+            <div class="box-cell"><img id="drag27"  draggable="true" src="../glyph/taling.svg" data-letter="ꦺ"
+                alt="ꦺ"></div>
+            <div class="box-cell"><img id="drag28"  draggable="true" src="../glyph/talingtarung.svg" data-letter="ꦺꦴ"
+                alt="ꦺꦴ"></div>
+            <div class="box-cell"><img id="drag29"  draggable="true" src="../glyph/cecak.svg" data-letter="ꦁ"
+                alt="ꦁ"></div>
+            <div class="box-cell"><img id="drag30"  draggable="true" src="../glyph/suku.svg" data-letter="ꦸ"
+                    alt="ꦸ"></div>
+            <div class="box-cell"><img id="drag31"  draggable="true" src="../glyph/layar.svg" data-letter="ꦂ"
+                alt="ꦂ"></div>
+            <div class="box-cell"><img id="drag32"  draggable="true" src="../glyph/wignyan.svg" data-letter="ꦃ"
+                alt="ꦃ"></div>
+            <div class="box-cell"><img id="drag33"  draggable="true" src="../glyph/cakra.svg" data-letter="ꦿ"
+                alt="ꦿ"></div>
+            <div class="box-cell"><img id="drag34"  draggable="true" src="../glyph/pengkal.svg" data-letter="ꦾ"
+                alt="ꦾ"></div>
+            <div class="box-cell"><img id="drag35"  draggable="true" src="../glyph/dirgamure.svg" data-letter="ꦻ"
+                alt="ꦻ"></div>
+            <div class="box-cell"><img id="drag36"  draggable="true" src="../glyph/a.svg" data-letter="ꦄ"
+                alt="ꦄ"></div>
+            <div class="box-cell"><img id="drag37"  draggable="true" src="../glyph/i.svg" data-letter="ꦆ"
+                alt="ꦆ"></div>
+            <div class="box-cell"><img id="drag38"  draggable="true" src="../glyph/u.svg" data-letter="ꦈ"
+                alt="ꦈ"></div>
+            <div class="box-cell"><img id="drag39"  draggable="true" src="../glyph/e.svg" data-letter="ꦌ"
+                alt="ꦌ"></div>
+            <div class="box-cell"><img id="drag40"  draggable="true" src="../glyph/o.svg" data-letter="ꦎ"
+                    alt="ꦎ"></div>
+        </section>
+
+        <section id="toaster">
+            <div class="toast-panel">
+                <div class="toast-item help">
+                    <div class="toast help">
+                        <label for="t-help" class="close"></label>
+                        <h3>Jawaban!</h3>
+                        <div class="hintAnswer"></div>
+                    </div>
+                </div>
+                <div class="toast-item success">
+                    <div class="toast success">
+                        <label for="t-success" class="close"></label>
+                        <h3>Betul!</h3>
+                        <p>Jawaban betul. Klik tombol "lanjut" untuk melanjutkan ke pertanyaan selanjutnya.</p>
+                    </div>
+                </div>
+                <div class="toast-item warning">
+                    <div class="toast warning">
+                        <label for="t-warning" class="close"></label>
+                        <h3>Kurang!</h3>
+                        <p>Semua kotak harus diisi.</p>
+                    </div>
+                </div>
+                <div class="toast-item error">
+                    <div class="toast error errans">
+                        <label for="t-error" class="close"></label>
+                        <h3>Salah!</h3>
+                        <p><button class="showHint">Minta jawaban</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>     
+        <!--Play button-->
+        <section id="buttons">
+            <button class="play">Kirim</button>
+            <button class="reset">Ulangi</button>
+            <button class="next">Lanjut</button>
+        </section>
+    </div>
+    <div class="modal" id="modal-one">
+        <div class="modal-bg modal-exit"></div>
+        <div class="modal-container">
+          <h1>Cara Bermain</h1>
+          <ul>
+            <li>Sekrèbel ini menggunakan bahasa Indonesia dengan penulisan aksara jawa mengikuti kaidah KBJ</li>
+            <li>Ambil dan letakkan (<i>drag n drop</i>) aksara di kotak yang telah disediakan.</li>
+            <li>Anda bisa meng-klik kembali aksara yang sudah terpasang untuk mengganti dengan aksara lain.</li>
+            <li>Cara menyusun aksara menyesuaikan cara mengetik menggunakan keyboard aksara jawa. Contoh:
+          <p>Menulis pohon: <span class="hintJawa">ꦥꦺꦴꦲꦺꦴꦤ꧀</span>, cara menyusunnya menjadi:</p> 
+          <p><span class="hintJawa">ꦥ</span> &nbsp;+&nbsp; &#x200C;<span class="hintJawa"> ꦺꦴ </span> &nbsp;+&nbsp; <span class="hintJawa">ꦲ</span>  &nbsp;+&nbsp; &#x200C; <span class="hintJawa"> ꦺꦴ </span> &nbsp;+&nbsp; <span class="hintJawa">ꦤ</span>  &nbsp;+&nbsp; &#x200C;<span class="hintJawa"> ꧀ </span></p>
+            </li>
+            <li>Jawaban benar nilainya 5 kali jumlah aksara, sedangkan jawaban salah akan mengurangi 1 poin.</li>
+            <li>Anda bisa mengoreksi jawaban, tetapi nilainya menjadi 3 x jumlah aksara dan ada catatan jumlah koreksi.</li>
+          </ul>                    
+          <button class="modal-close modal-exit">tutup</button>
+        </div>
+    </div>
+    <!--adding main page javascript functionalities-->
+    <noscript>Maaf, <i>browser</i> Anda tidak support Javascript</noscript>
+    <script src="js/constants.js?id=1119327"  charset="utf-8"></script>
+    <script src="js/sekrabel.js?id=226"  charset="utf-8"></script>
+</body>
+</html>

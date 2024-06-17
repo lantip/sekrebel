@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-10 0 2647 2500"
+   id="svg1056"
+   sodipodi:docname="tha.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1060" />
+  <sodipodi:namedview
+     id="namedview1058"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.26006893"
+     inkscape:cx="1193.9143"
+     inkscape:cy="1313.1134"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1056" />
+  <path
+     fill="currentColor"
+     d="m 1622.0841,835.26088 q 70,-244 -145,-244 -216,0 -295,276 l -5,17 h -69 q -51,0 -37,-49 103,-359 439,-359 193,0 237,129 127,-129 349,-129 442,0 317,436 l -196,684.00002 h -144 q -105,0 -76,-101 l 186,-649.00002 q 73,-255 -120,-255 -251,0 -330,276 l -5,17 h -69 q -51,0 -37,-49 z m -385,642.00002 q 206,-17 235,-118 9,-32 -4,-53 -13,-21 -42,-21 -57,0 -176,164 l -15,21 q -6,8 2,7 z m -218,117 q -238.00004,-13 -352.00004,-126 -130,-127 -70,-336 l 97,-338.00002 q 58,-203 -73,-203 -171,0 -250,276 l -27,94 q -95,331.00002 41,549.00002 l 25,40 -58,36 q -40,25 -65,-15 -163,-261 -54,-642.00002 l 27,-94 q 103,-359 394,-359 380.00004,0 270,384 l -97,338.00002 q -38,133 45,208 69,63 211.00004,73 9,1 11,-2 35,-58 74,-112 142,-195 291,-195 80,0 116.5,59.5 36.5,59.5 11.5,146.5 l -4,14 q -55,192 -420,205 -4,0 -6,4 -50,98 -79,199 -58,203 -10,303 49,102 160,102 80,0 144,-62 34,-33 67,1 l 47,49 -34,33 q -97,94 -224,94 -184,0 -264.00004,-167 -67,-140 3,-384 24,-84 64.00004,-171 0,-1 -12,-2 z"
+     id="path1054" />
+</svg>

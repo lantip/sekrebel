@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-10 0 1143 2500"
+   id="svg103"
+   sodipodi:docname="wignyan.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs107" />
+  <sodipodi:namedview
+     id="namedview105"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.2876"
+     inkscape:cx="571.97497"
+     inkscape:cy="1291.7246"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg103" />
+  <path
+     fill="currentColor"
+     d="m 378.74082,1164.978 q 233.82074,58.1796 381.57708,219.9976 187.90554,207.8184 158.02575,471.3734 -34.94313,305.9738 -320.747,627.5965 l -49.00663,-20.183 q -43.5798,-18.0499 -25.52984,-61.6297 127.1708,-306.21 149.70333,-504.6572 Q 701.01058,1648.389 588.3374,1465.9938 475.66422,1283.5987 229.70165,1255.8424 l -46.52912,-5.389 7.83802,-68.2317 q 2.77468,-25.8128 29.06404,-44.4104 229.20965,-163.0979 337.07547,-348.45961 107.86583,-185.36171 129.09123,-373.45074 16.818,-147.80783 -25.80396,-202.51952 -42.62195,-54.71169 -116.59187,-42.32416 -124.26947,20.81105 -140.5967,165.49492 -6.5309,57.87355 13.72307,100.10833 20.25397,42.23478 75.84834,77.53728 l -34.4814,54.44293 q -24.79339,39.63948 -63.4466,14.68092 Q 342.58694,549.49618 310.47646,481.87098 278.36599,414.24578 288.48793,323.32523 314.77667,92.817316 557.39801,52.186218 738.87088,21.795478 843.75515,124.381 948.63943,226.96652 923.98341,443.00606 901.94164,638.32928 739.66604,831.78891 606.13363,991.03116 378.74082,1164.978 Z"
+     id="path101" />
+</svg>

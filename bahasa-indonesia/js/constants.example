@@ -1,0 +1,7 @@
+const wordDetails = [    
+    {
+        word: ["ꦒ","ꦗ","ꦃ"], // aksara nusantara, satu karakter tiap kolom
+        hint : "gajah.png", // nama file gambar
+        noOfBoxes : 3 // jumlah kolom
+    },
+]

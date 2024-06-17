@@ -1,0 +1,7 @@
+const wordDetails = [
+    {
+        word: ['ꦧ','\u{A9BA}','ꦧ','\u{A9BA}','ꦏ','\u{A9C0}'], // aksara nusantara, satu karakter per kolom
+        hint : 'bebek.png', // nama file gambar
+        noOfBoxes : 6 // jumlah box sesuai kolom di field word
+    },
+]
