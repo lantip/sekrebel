@@ -24,6 +24,12 @@ Adding Characters
     <div class="box-cell"><img id="drag40"  draggable="true" src="glyph/o.svg" data-letter="ꦎ"
                 alt="ꦎ"></div>
 
+Fonta
+---
+- fonta ada di dalam direktori `fonts`.
+- Jika ingin mengubah, gunakan fonta yang sudah mendukung unicode aksara nusantara. Anda bisa memakai fonta yang ada di [https://aksaradinusantara.com/](https://aksaradinusantara.com/)
+- Sesuaikan file `css` di dalam direktori tersebut, juga `style.css` di dalam direktori `css`.
+
 Programming Language
 ---
 - HTML
