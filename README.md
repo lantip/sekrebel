@@ -1,7 +1,9 @@
 Sekrebel Aksara Nusantara
 ===
 This is a scrabble game for learning aksara nusantara. Currently available for Aksara Jawa.
+
 Ini adalah permainan skrabel untuk belajar aksara nusantara. Saat ini baru tersedia Aksara Jawa.
+
 Iki dolanan skrebel kanggo sinau aksara nusantara. Saiki lagi ana Aksara Jawa.
 
 
@@ -22,6 +24,11 @@ Adding Characters
     <div class="box-cell"><img id="drag40"  draggable="true" src="glyph/o.svg" data-letter="ꦎ"
                 alt="ꦎ"></div>
 
+Programming Language
+---
+- HTML
+- CSS
+- Vanila JS
 
 Thanks To
 ---
